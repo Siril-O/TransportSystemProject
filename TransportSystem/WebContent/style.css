@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+.my_link {
+	margin: 5px;
+	padding: 10px;
+	background-color: #009900;
+	-webkit-box-shadow: 6px 7px 8px -4px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 6px 7px 8px -4px rgba(0, 0, 0, 0.75);
+	box-shadow: 6px 7px 8px -4px rgba(0, 0, 0, 0.75);
+	border-radius: 5px;
+	-moz-box-shadow: 6px 7px 8px -4px rgba(0, 0, 0, 0.75);
+	box-shadow: 6px 7px 8px -4px rgba(0, 0, 0, 0.75);
+	border-radius: 5px;
+	-moz-box-shadow: 6px 7px 8px -4px rgba(0, 0, 0, 0.75);
+	border: 1px solid black;
+	text-decoration: none;
+	color: white;
+}
+
+.my_link:hover {
+	text-decoration: underline;
+}
+
+.my_link_smal {
+	margin: 2px;
+	padding: 2px;
+	background-color: #009900;
+	-webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+	border-radius: 3px;
+	border: 1px solid black;
+	text-decoration: none;
+	color: white;
+}
+
+.inlineDiv {
+	display: inline;
+	float: left;
+	margin: 20px;
+}
+
+.main {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	width: 1000px;
+}
+
+.routeItem {
+	-webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+	padding: 15px;
+	border: 1px grey black;
+	background: #e3e3e3;
+	border-radius: 7px;
+	margin: 10px;
+}
+
+.listItem {
+	display: inline;
+	float: left;
+	width: 50px;
+	margin: 5px;
+	position: relative;
+}
